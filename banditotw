@@ -1,0 +1,29 @@
+#Commands and passwords used during each level.
+
+#Level 4
+cat ./filexx
+#Level 5 pw: koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+
+#Level 5
+du -h inhere/
+find . -type f size 1033c -readable ! -executable
+# if I did not have -readable ! -executable, I could just run the find, cd into the file and cat it.
+#have been told I could have also use du AB, pipe for it and grep will work.
+#Level 6 pw: DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+
+#Level 6
+find / -type f -user bandit7
+#in which using / brings to the root directory and searches
+#could have done a cleaner command, this command shows unnecessary information. May try using grep.
+#after using find, cd and cat.
+#Level 7 pw: HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+
+#Level 7
+grep -w "millionth" data.txt
+#searched for plain text datasets.
+#Level 8 pw: cvX2JJa4CFALtqS87jk27qwqGhBM9olV
+
+#Level 8
+cat data.txt | sort | uniq -u
+#piping to connect operations
+#Level 9 pw: UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
